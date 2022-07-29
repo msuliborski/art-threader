@@ -2,7 +2,3 @@
 .vscode/
 .ipynb_checkpoints/
 .DS_Store
-
-# Untracked files
-bibliography/
-dictionaries/
