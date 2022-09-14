@@ -1,11 +1,10 @@
 # Art Threader
-Automatic generation of Thread Art pictures. Master Thesis (2022)
+Automatic generation of Thread Art images. Master Thesis (2022)
 
 # Dependence
-- only python 3.9
-- install requirements
-- put those files in ~/.u2net: https://github.com/danielgatis/rembg#models (as instructed)
+- Use only Python 3.9 (not tested if works with other versions)
+- Install dependencies from requirement.txt 
+- Put those files in ~/.u2net: https://github.com/danielgatis/rembg#models (as instructed)
 
 # How to run
-- gen dictionaries
-- itd
+- Follow art-threader.ipynb Jupyter Notebook 
