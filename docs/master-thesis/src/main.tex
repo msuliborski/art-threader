@@ -29,8 +29,10 @@
 % Listingi i spis listingów
 \usepackage{listings}
 \usepackage{minted}
+\setminted{fontsize=\small,baselinestretch=1.0}
 \usepackage[center]{caption}
 \DeclareCaptionType{code}[Listing][Spis listingów]
+% \renewenvironment{code}{\captionsetup{type=listing}}{}
 \lstset{breaklines=true,basicstyle=\ttfamily\scriptsize}
 
 % Bibliografia
@@ -95,12 +97,18 @@
 
 
 \begin{document}
-
     % Strona tytułowa
     \input{titlepage}
+    
+    \newpage
+    \thispagestyle{empty}
+    \mbox{}
+    \newpage
 
     % % Abstrakt 
+    \setstretch{1.5}
     \input{abstracts}
+    \newpage
 
     % Spis treści
     \setstretch{1.0}
@@ -108,6 +116,7 @@
     \newpage
 
     % Rozdziały pracy 
+    \setstretch{1.5}
     \input{chapters}
 
 \end{document}
